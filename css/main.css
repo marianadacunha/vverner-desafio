@@ -1,1 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.card {
+    width: 350px;
+}
+
+.card-date {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #7C7C7C;
+}
+
+.card-title {
+    font-family: 'Nunito';
+    font-size: 17px;
+    font-weight: 800;
+    color: #353535;
+}
+
+.card-text {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #656565;
+    text-align: justify;
+}
+
+.btn {
+    background-color: #4F4A93;
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+}
