@@ -37,9 +37,15 @@ a:hover {
 }
 
 .card {
-    width: 350px;
+    width: 23vw;
     margin-bottom: 30px;
 }
+
+@media only screen and (max-width: 766px) {
+    .card {
+      width: 90vw;
+    }
+  }
 
 .card-date {
     font-family: 'Open Sans';
