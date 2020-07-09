@@ -27,9 +27,9 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Todos
                 <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li class="link"><a href="#">Post #1</a></li>
-                  <li class="link"><a href="#">Post #2</a></li>
-                  <li class="link"><a href="#">Post #3</a></li>
+                  <li class="link" onClick="esconderCartoes2e3()"><a href="#">Post #1</a></li>
+                  <li class="link" onClick="esconderCartoes1e3()"><a href="#">Post #2</a></li>
+                  <li class="link" onClick="esconderCartoes1e2()"><a href="#">Post #3</a></li>
                 </ul>
               </li>
             </div>
@@ -39,8 +39,8 @@
         
         <div class="row">
             <div class="col-md-3">
-                <div class="card">
-                    <img src="img/img-1.webp" class="card-img-top" alt="...">
+                <div class="card firstCard">
+                    <img src="img/img-1.webp" class="card-img-top" alt="Foto do Post #1">
                         <div class="card-body">
                             <h5 class="card-date">09/07/2020</h5>
                             <h3 class="card-title">Post Demonstrativo #1</h3>
@@ -51,8 +51,8 @@
             </div>
 
             <div class="col-md-3">
-                <div class="card">
-                    <img src="img/img-2.webp" class="card-img-top" alt="...">
+                <div class="card secondCard">
+                    <img src="img/img-2.webp" class="card-img-top" alt="Foto do Post #2">
                         <div class="card-body">
                             <h5 class="card-date">09/07/2020</h5>
                             <h3 class="card-title">Post Demonstrativo #2</h3>
@@ -63,8 +63,8 @@
             </div>
 
             <div class="col-md-3">
-                <div class="card">
-                    <img src="img/img-3.webp" class="card-img-top" alt="...">
+                <div class="card thirdCard">
+                    <img src="img/img-3.webp" class="card-img-top" alt="Foto do post #3">
                         <div class="card-body">
                             <h5 class="card-date">09/07/2020</h5>
                             <h3 class="card-title">Post Demonstrativo #3</h3>
@@ -75,8 +75,8 @@
             </div>   
             
             <div class="col-md-3">
-                <div class="card">
-                    <img src="img/img-1.webp" class="card-img-top" alt="...">
+                <div class="card firstCard">
+                    <img src="img/img-1.webp" class="card-img-top" alt="Foto do Post #1">
                         <div class="card-body">
                             <h5 class="card-date">09/07/2020</h5>
                             <h3 class="card-title">Post Demonstrativo #1</h3>
@@ -89,20 +89,8 @@
 
         <div class="row">
             <div class="col-md-3">
-                <div class="card">
-                    <img src="img/img-2.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-date">09/07/2020</h5>
-                            <h3 class="card-title">Post Demonstrativo #1</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis velit a tellus lacinia tempor. Ut imperdiet dictum quam, et varius diam posuere eu. Morbi sodales ante est, non gravida orci maximus et.</p>
-                            <a href="#" class="btn btn-primary">Ler mais</a>
-                        </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="img/img-3.webp" class="card-img-top" alt="...">
+                <div class="card secondCard">
+                    <img src="img/img-2.webp" class="card-img-top" alt="Foto do Post #2">
                         <div class="card-body">
                             <h5 class="card-date">09/07/2020</h5>
                             <h3 class="card-title">Post Demonstrativo #2</h3>
@@ -113,8 +101,8 @@
             </div>
 
             <div class="col-md-3">
-                <div class="card">
-                    <img src="img/img-1.webp" class="card-img-top" alt="...">
+                <div class="card thirdCard">
+                    <img src="img/img-3.webp" class="card-img-top" alt="Foto do Post #3">
                         <div class="card-body">
                             <h5 class="card-date">09/07/2020</h5>
                             <h3 class="card-title">Post Demonstrativo #3</h3>
@@ -122,14 +110,26 @@
                             <a href="#" class="btn btn-primary">Ler mais</a>
                         </div>
                 </div>
-            </div>   
-            
+            </div>
+
             <div class="col-md-3">
-                <div class="card">
-                    <img src="img/img-2.webp" class="card-img-top" alt="...">
+                <div class="card firstCard">
+                    <img src="img/img-1.webp" class="card-img-top" alt="Foto do Post #1">
                         <div class="card-body">
                             <h5 class="card-date">09/07/2020</h5>
                             <h3 class="card-title">Post Demonstrativo #1</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis velit a tellus lacinia tempor. Ut imperdiet dictum quam, et varius diam posuere eu. Morbi sodales ante est, non gravida orci maximus et.</p>
+                            <a href="#" class="btn btn-primary">Ler mais</a>
+                        </div>
+                </div>
+            </div>   
+            
+            <div class="col-md-3">
+                <div class="card secondCard">
+                    <img src="img/img-2.webp" class="card-img-top" alt="Foto do Post #2">
+                        <div class="card-body">
+                            <h5 class="card-date">09/07/2020</h5>
+                            <h3 class="card-title">Post Demonstrativo #2</h3>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis velit a tellus lacinia tempor. Ut imperdiet dictum quam, et varius diam posuere eu. Morbi sodales ante est, non gravida orci maximus et.</p>
                             <a href="#" class="btn btn-primary">Ler mais</a>
                         </div>
@@ -139,32 +139,8 @@
 
         <div class="row">
             <div class="col-md-3">
-                <div class="card">
-                    <img src="img/img-3.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-date">09/07/2020</h5>
-                            <h3 class="card-title">Post Demonstrativo #1</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis velit a tellus lacinia tempor. Ut imperdiet dictum quam, et varius diam posuere eu. Morbi sodales ante est, non gravida orci maximus et.</p>
-                            <a href="#" class="btn btn-primary">Ler mais</a>
-                        </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="img/img-2.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-date">09/07/2020</h5>
-                            <h3 class="card-title">Post Demonstrativo #2</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis velit a tellus lacinia tempor. Ut imperdiet dictum quam, et varius diam posuere eu. Morbi sodales ante est, non gravida orci maximus et.</p>
-                            <a href="#" class="btn btn-primary">Ler mais</a>
-                        </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="img/img-1.webp" class="card-img-top" alt="...">
+                <div class="card thirdCard">
+                    <img src="img/img-3.webp" class="card-img-top" alt="Foto do Post #3">
                         <div class="card-body">
                             <h5 class="card-date">09/07/2020</h5>
                             <h3 class="card-title">Post Demonstrativo #3</h3>
@@ -172,14 +148,38 @@
                             <a href="#" class="btn btn-primary">Ler mais</a>
                         </div>
                 </div>
-            </div>   
-            
+            </div>
+
             <div class="col-md-3">
-                <div class="card">
-                    <img src="img/img-2.webp" class="card-img-top" alt="...">
+                <div class="card firstCard">
+                    <img src="img/img-1.webp" class="card-img-top" alt="Foto do Post #1">
                         <div class="card-body">
                             <h5 class="card-date">09/07/2020</h5>
                             <h3 class="card-title">Post Demonstrativo #1</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis velit a tellus lacinia tempor. Ut imperdiet dictum quam, et varius diam posuere eu. Morbi sodales ante est, non gravida orci maximus et.</p>
+                            <a href="#" class="btn btn-primary">Ler mais</a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card secondCard">
+                    <img src="img/img-2.webp" class="card-img-top" alt="Foto do Post #2">
+                        <div class="card-body">
+                            <h5 class="card-date">09/07/2020</h5>
+                            <h3 class="card-title">Post Demonstrativo #2</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis velit a tellus lacinia tempor. Ut imperdiet dictum quam, et varius diam posuere eu. Morbi sodales ante est, non gravida orci maximus et.</p>
+                            <a href="#" class="btn btn-primary">Ler mais</a>
+                        </div>
+                </div>
+            </div>   
+            
+            <div class="col-md-3">
+                <div class="card thirdCard">
+                    <img src="img/img-3.webp" class="card-img-top" alt="Foto do Post #3">
+                        <div class="card-body">
+                            <h5 class="card-date">09/07/2020</h5>
+                            <h3 class="card-title">Post Demonstrativo #3</h3>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis velit a tellus lacinia tempor. Ut imperdiet dictum quam, et varius diam posuere eu. Morbi sodales ante est, non gravida orci maximus et.</p>
                             <a href="#" class="btn btn-primary">Ler mais</a>
                         </div>
@@ -189,13 +189,23 @@
     </div>
 
     <footer class="text-muted">
-        <p>Desenvolvimento por Mariana Marques © Todos os direitos reservados</p>
+        <p>Desenvolvido por Mariana Marques © Todos os direitos reservados</p>
     </footer>
 </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+    function esconderCartoes2e3() {
+        const esconder = document.getElementsByClassName('firstCard');
+        for (let i = 0; i < esconder.length; i++) {
+            esconder[i].style.display = 'none';
+        }
+    }
+    </script>
 
 </body>
 </html>
