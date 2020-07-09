@@ -2,7 +2,8 @@
 
 .menu {
     margin-bottom: 20px;
-    box-shadow: 5px 5px 50px #d6d6d6;
+    -webkit-box-shadow: 5px 5px 50px #d6d6d6;
+            box-shadow: 5px 5px 50px #d6d6d6;
 }
 
 .navbar-brand {
@@ -24,7 +25,8 @@ a {
 
 a:hover {
     color: #353535;
-    text-decoration-line: none;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
 }
 
 .dropdown-menu {
@@ -76,7 +78,8 @@ a:hover {
 }
 
 footer {
-    box-shadow: -5px -5px 50px #d6d6d6;
+    -webkit-box-shadow: -5px -5px 50px #d6d6d6;
+            box-shadow: -5px -5px 50px #d6d6d6;
     padding: 20px;
 }
 
